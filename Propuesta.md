@@ -1,4 +1,6 @@
-Propuesta TP DSW
+**Propuesta TP DSW**
+
+Titulo: IMPERIO
 
 Grupo:
 
@@ -7,12 +9,16 @@ Grupo:
 
 Repositorios:
 
+*   
+* 
+
 Tema:
 
 El Imperio Galactico nos a convocado para la sistematización de la Gestion de Misiones que se desarrollan en el borde exterior. 
 
 Modelado:
 
+https://app.diagrams.net/\#G1\_MvdcPmraewMfDHWlvyvh7rUhxTuQhkM\#%7B%22pageId%22%3A%227qAX2U-LqWNUhcyjBXXZ%22%7D  
 ![][image1]
 
 Alcance Funcional:
