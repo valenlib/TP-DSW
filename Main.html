@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Imperio</title>
+    <meta name="description" content="Administracion Imperial de flotas ">
+
+    <!-- Prefetch(precargar baja prioridad) -->
+    <link rel="prefetch" href="ingreso.html" as="document">
+
+    <!-- Preload (alta prioridad)-->
+    <link rel="preload" href="css/normalizado.css" as="style">
+    <link rel="stylesheet" href="css/normalizado.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <header class="encabezado">
+        <div class="contenedor"> 
+            <div>
+                <a class="logo" href="Main.html">
+                    <h1 class="Logo__nombre no-margin centrar-texto">Administracion <span class="logo__2parte">Imperial</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <p class="titulonav ">¿Ya es miembro?</p>
+                    <a href="pilotos.html" class="navegacion__enlace">Pilotos</a>
+                    <a href="oficial.html" class="navegacion__enlace">Oficial</a>
+                    <a href="almirante.html" class="navegacion__enlace">Almirante</a>
+                </nav>
+            </div>
+        </div> 
+        
+        <div class="encabezado__texto">
+            <h2 class="sin-margen">Sistema de Administracion Imperial</h2>
+            <p class="sin-margen">Ingrese hoy a la armada</p>
+        </div>
+    
+    </header>
+
+    <div class="contenedor contenido-principal"></div>
+        <main class="Cuerpo">
+            <h3>Nuestros pilotos</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
+                        <img loading="lazy"src="img/piloto_imperial.jpg" alt="imagen piloto"> 
+                    </picture>
+                </div>
+
+                <h3>Nuestra Flota</h3>
+                <div class="entrada__imagen">
+                    <picture>
+                        <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
+                        <img loading="lazy"src="img/Flota.jpg" alt="imagen piloto"> 
+                    </picture>
+                </div>
+
+                <h3>unete hoy</h3>
+                <div class="entrada__imagen">
+                    <picture>
+                        <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
+                        <img loading="lazy"src="img/propaganda.jpg" alt="imagen piloto"> 
+                    </picture>
+                </div>
+            </article>
+
+
+        </main>
+
+    <footer class="Pie de pagina">
+
+    </footer>
+
+</body>
+</html>
