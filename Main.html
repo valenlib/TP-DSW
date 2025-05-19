@@ -6,11 +6,11 @@
     <meta name="description" content="Administracion Imperial de flotas ">
 
     <!-- Prefetch(precargar baja prioridad) -->
-    <link rel="prefetch" href="ingreso.html" as="document">
+    <link rel="prefetch" href="login.html" as="document">
 
     <!-- Preload (alta prioridad)-->
-    <link rel="preload" href="css/normalizado.css" as="style">
-    <link rel="stylesheet" href="css/normalizado.css">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
 
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -29,9 +29,7 @@
 
                 <nav class="navegacion">
                     <p class="titulonav ">¿Ya es miembro?</p>
-                    <a href="pilotos.html" class="navegacion__enlace">Pilotos</a>
-                    <a href="oficial.html" class="navegacion__enlace">Oficial</a>
-                    <a href="almirante.html" class="navegacion__enlace">Almirante</a>
+                    <a href="login.html" class="navegacion__enlace">Iniciar Sesion</a> 
                 </nav>
             </div>
         </div> 
@@ -43,36 +41,48 @@
     
     </header>
 
-    <div class="contenedor contenido-principal"></div>
-        <main class="Cuerpo">
-            <h3>Nuestros pilotos</h3>
-            <article class="entrada">
-                <div class="entrada__imagen">
-                    <picture>
+
+    <main class="Cuerpo">
+        <div class="contenedor ">
+            <article class="entrada__linea dos-columnas">
+                
+                <div class="entrada__imagen ">
+                    <h3 class="centrar-texto titulo3">Nuestra Flota</h3>   
+                    <picture >
                         <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
-                        <img loading="lazy"src="img/piloto_imperial.jpg" alt="imagen piloto"> 
+                        <img loading="lazy"src="img/Flota.jpg" alt="imagen piloto">
                     </picture>
                 </div>
-
-                <h3>Nuestra Flota</h3>
-                <div class="entrada__imagen">
-                    <picture>
-                        <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
-                        <img loading="lazy"src="img/Flota.jpg" alt="imagen piloto"> 
-                    </picture>
+                <div class="entrada__texto">
+                    <p>mspdasdpspdspdp ps pppspp psp pp sp pps Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id eleifend dolor. Nunc sed maximus neque, ornare faucibus risus. Nunc tempor lacus mi, id rhoncus est ornare tempor. Maecenas fringilla diam sed imperdiet molestie. Quisque nec dapibus sapien, sit amet ornare ligula. Mauris rutrum eros vel libero tristique, at condimentum mauris ultrices. Nam non facilisis est. Ut finibus feugiat eros, ut egestas velit eleifend eget. Nulla sed aliquet dolor. Fusce non nisi pellentesque, scelerisque arcu vitae, pharetra ex. Sed eget nibh scelerisque, tempus ipsum hendrerit, scelerisque nisi. Aliquam sollicitudin enim sit amet molestie molestie. Praesent vel magna et eros euismod consequat. In lobortis et enim eget tempus.</p>
+                    <a href="flota.html" class="botonazo">
+                        <span class="boton__texto">Flota</span>
+                    </a>
                 </div>
-
-                <h3>unete hoy</h3>
+                
+            </article>
+        
+            <article class="entrada__linea dos-columnas">
                 <div class="entrada__imagen">
-                    <picture>
-                        <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
-                        <img loading="lazy"src="img/propaganda.jpg" alt="imagen piloto"> 
-                    </picture>
+                    <h3 class="titulo3">unete hoy</h3>
+                    <div class="entrada__imagen  ">
+                        <picture>
+                            <!--<source loading="lazy" srcset="img/piloto_imperial.webp" type="image/webp"> -->
+                            <img loading="lazy"src="img/propaganda.jpg" alt="imagen piloto"> 
+                        </picture>
+                    </div>
+                </div>    
+                <div class="entrada__texto">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id eleifend dolor. Nunc sed maximus neque, ornare faucibus risus. Nunc tempor lacus mi, id rhoncus est ornare tempor. Maecenas fringilla diam sed imperdiet molestie. Quisque nec dapibus sapien, sit amet ornare ligula. Mauris rutrum eros vel libero tristique, at condimentum mauris ultrices. Nam non facilisis est. Ut finibus feugiat eros, ut egestas velit eleifend eget. Nulla sed aliquet dolor. Fusce non nisi pellentesque, scelerisque arcu vitae, pharetra ex. Sed eget nibh scelerisque, tempus ipsum hendrerit, scelerisque nisi. Aliquam sollicitudin enim sit amet molestie molestie. Praesent vel magna et eros euismod consequat. In lobortis et enim eget tempus</p>
+                    
+                <a href="register.html" class="botonazo"> <span class="boton__texto">registrarse</span></a>
+                    
+                        
                 </div>
             </article>
+        </div>
 
-
-        </main>
+    </main>
 
     <footer class="Pie de pagina">
 

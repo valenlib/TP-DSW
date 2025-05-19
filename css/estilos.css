@@ -8,7 +8,9 @@
 }
 html {
     box-sizing: border-box;
-    font-size: 62.5%;  
+    font-size: 62.5%;
+    background: linear-gradient(to bottom,black 85%,red );
+      
 }
 
 /*Asegura que todos los elementos, y sus pseudoelementos ::before y ::after, hereden el box-sizing de html.*/ 
@@ -20,6 +22,7 @@ body {
     font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 2;
+    
 }
 /* 1 rem = 10px */ 
 
@@ -27,6 +30,7 @@ body {
 .contenedor{
     width: min(90%, 120rem);
     margin: 0 auto;
+    
 }
 a{
     text-decoration: none;
@@ -50,6 +54,10 @@ h4{
 
 img{
     max-width: 100%;
+}
+label{
+   font-weight: bold;
+   color: #df2a2a;
 }
 
 /*utilidades*/
@@ -106,7 +114,119 @@ img{
 .navegacion{
     text-align: right;   
 }
+
+.navegacion__enlace {
+    text-align: center;
+    color: red;
+}
+
 /*cuerpo*/
+.register
+{   text-align: center;
+    }
+.abc{
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+.modeloParaFondo {
+    background-image: url(../img/propaganda.jpg);
+    height: 100rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.entrada {
+    background-position: center center;
+    
+}
+.entrada__texto {
+    text-align: center;
+    color: red;
+    margin-top: 5rem;
+}
+.titulo3 {
+    text-align: center;
+    color: red;
+    margin-top: 5rem;}
+
+.dos-columnas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+   }
+.botonazo {
+    background-color: red;
+    color: white;
+    padding: 0.7rem 3rem;
+    border-radius: 100px;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+    display: inline-block;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Sombra inicial */
+    transition: 
+        background 0.2s,
+        box-shadow 0.2s,
+        transform 0.2s;
+}
+
+.botonazo:hover {
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4); /* Sombra más grande */
+    transform: translateY(-4px) scale(1.04); /* Efecto de levantar */
+}
+.botonazo:active {
+    background-color: #ff0000;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Sombra inicial */
+    transform: translateY(0) scale(1); /* Regresar a la posición original */
+}
 
 
+.boton__texto{
+    font-weight: bold;
+    color: black;
+}
 /*pie de pagina*/
+
+
+
+
+/*formulario(login y registro)*/
+.fondo{
+    background-image: url(../img/piloto_imperial.jpg);
+    height: 100rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.fondo2{
+    background-image: url(../img/tie_2.jpg);
+    height: 100rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.register{
+    text-align: right;
+    max-width: 50%;
+    margin-left: auto;
+}
+.formulario{
+    
+    background-color: rgb(122, 4, 4) transparent 10%;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(219, 17, 17, 0.5);
+    margin: 4rem auto 100rem auto;
+    max-width: 50%;
+    text-align: center;}
+.campo__fecha{
+       margin-left: -13rem;
+}
+.formulario__campo{
+    margin-bottom: 0.5rem;
+}
+
